@@ -1,4 +1,4 @@
-/*const express = require('express')
+const express = require('express')
 const app = express()
 
 app.listen(8081, function(){
@@ -23,4 +23,4 @@ app.get('/saudacao1/:nome/:email', function(req, res){
 
 app.get('/saudacao2/:nome/:email', function(req, res){
     res.send('<h1>Olá ' + req.params.nome + '<br> email: ' + req.params.email +'</h1>')
-})*/
+})
